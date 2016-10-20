@@ -25,8 +25,7 @@ matrix:
 # blacklist some branches
 branches:
   only:
-    - stable
-    - master
+    - configfiletest
 before_install:
   - export THREADS=2
   - |
